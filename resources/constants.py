@@ -13,7 +13,7 @@ class Wood(NamedTuple):
 SIMPLE_ITEMS = ('peel', 'fruit_leaf', 'cinnamon_bark', 'beeswax', 'pineapple_leather', 'pineapple_yarn', 'raw_honey', 'rennet', 'watering_can', 'treated_lumber', 'beehive_frame', 'empty_jar', 'cheesecloth', 'spoon', 'pie_pan', 'seed_ball')
 SIMPLE_FOODS = ('frothy_coconut', 'white_chocolate_blend', 'dark_chocolate_blend', 'milk_chocolate_blend', 'tofu', 'soy_mixture', 'yak_curd', 'goat_curd', 'milk_curd', 'cheddar', 'chevre', 'rajya_metok', 'gouda', 'feta', 'shosha', 'butter',
                 'pie_dough', 'filled_pie', 'cooked_pie', 'pizza_dough', 'raw_pizza', 'cooked_pizza', 'shredded_cheese', 'pickled_egg', 'pumpkin_pie_dough', 'raw_pumpkin_pie', 'cooked_pumpkin_pie', 'cocoa_beans', 'roasted_cocoa_beans',
-                'cocoa_butter', 'cocoa_powder', 'toast', 'dark_chocolate', 'milk_chocolate', 'white_chocolate')
+                'cocoa_butter', 'cocoa_powder', 'toast', 'dark_chocolate', 'milk_chocolate', 'white_chocolate', 'garlic_bread')
 SIMPLE_SPICES = ('ground_cinnamon', 'cinnamon', 'basil_leaves')
 SIMPLE_BLOCKS: Dict[str, str] = {
     'sealed_bricks': 'minecraft:mineable/pickaxe',
@@ -153,6 +153,7 @@ ORE_VEINS: Dict[str, Vein] = {
 
 DEFAULT_LANG = {
     'effect.firmalife.swarm': 'Swarm',
+    'entity.firmalife.seed_ball': 'Seed Ball',
     'firmalife.tooltip.food_trait.dried': 'Dried',
     'firmalife.tooltip.food_trait.aged': 'Aged',
     'firmalife.tooltip.food_trait.vintage': 'Vintage',
@@ -223,6 +224,7 @@ DEFAULT_LANG = {
     'firmalife.jade.slices': 'Slices: %s',
     'firmalife.jade.cure_time_left': 'Curing Time Left: %s',
     'firmalife.jade.cannot_cure': 'Not hot enough to cure!',
+    'firmalife.jade.cook_left': 'Cook Time: %s',
 
     'death.attack.firmalife.oven': '%1$s died by sticking their hand in a hot oven.',
     'death.attack.firmalife.oven.player': '%1$s climbed into an oven to escape %2$s.',

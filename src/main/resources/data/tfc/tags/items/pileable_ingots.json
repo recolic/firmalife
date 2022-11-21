@@ -2,7 +2,7 @@
   "__comment__": "This file was automatically created by mcresources",
   "replace": false,
   "values": [
-    "firmalife:spoon",
-    "firmalife:peel"
+    "#forge:ingots/stainless_steel",
+    "#forge:ingots/chromium"
   ]
 }
